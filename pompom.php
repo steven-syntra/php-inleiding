@@ -1,5 +1,5 @@
 <?php
-//dit is pompom.php
+//dit is pompom.php en dit is commentaar
 $a = 5;
 $b = 10;
 
