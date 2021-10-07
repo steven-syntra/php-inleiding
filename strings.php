@@ -9,6 +9,12 @@ print substr( str_replace("Volksgezondheid", "Defensie", $tekst), 5, 50) . "\n";
 print strlen($tekst) . "\n";        //hoe lang is het opgegeven stuk tekst
 print strpos($tekst, ".");         //waar staat 'op' in de tekst?
 
-if ( strpos($tekst, "<h1>") === false ) print "Ik vind geen heading in de tekst";
-else print "Joehoe! Heading gevonden!!!";
+if ( strpos($tekst, "<h1>") === false )
+{
+    print "Ik vind geen heading in de tekst";
+}
+else
+{
+    print "Joehoe! Heading gevonden!!!";
+}
 

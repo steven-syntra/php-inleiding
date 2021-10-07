@@ -3,8 +3,10 @@ $n = 1;
 
 while ( $n <= 20 )
 {
-    print $n . " " . random_int(100,999) . "\n";
+    print $n . " " . random_int(100, 999) . "\n";
     $n++;           //increment
+}
+
     $d = ( 8 * 9 ) * ++$n;
     print "\$d is nu gelijk aan $d ----- ";
 
