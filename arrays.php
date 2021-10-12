@@ -1,10 +1,10 @@
 <?php
 
 //enkelvoudige array
-$cars = [ "Volvo", "BMW", "Toyota" ];
+$cars = ["Volvo", "BMW", "Toyota"];
 
-$cars[0]="Mercedes";
-$cars[]="Volkswagen";
+$cars[0] = "Mercedes";
+$cars[] = "Volkswagen";
 
 sort($cars);
 var_dump($cars);
@@ -45,8 +45,6 @@ print json_encode($prijzen);
 
 // geeft:
 //  {"Volvo":[2002,2500],"BMW":[1996,3500],"Toyota":[2012,11000]}
-
-
 
 
 /*
