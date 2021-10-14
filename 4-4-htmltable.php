@@ -25,10 +25,10 @@ function StudentToTable( $student )
     print "<table>"; # start van de tabel
 
     # voor elk gegeven (naam, voornaam, ...) een rij (<tr>) toevoegen met 2 cellen (<td>)
-    foreach( $student as $key => $value )
+    foreach( $student as $field => $value )
     {
         # de velden krijgen als eerste letter een hoofdletter (Naam, Voornaam, enz...)
-        print "<tr><td>" . ucfirst($key) . "</td><td>" . $value . "</td></tr>";
+        print "<tr><td>" . ucfirst($field) . "</td><td>" . $value . "</td></tr>";
     }
 
     print "</table>"; # afsluiten van de tabel
